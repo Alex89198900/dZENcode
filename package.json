@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch ./server.ts ",
-    "build": "npm i && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
