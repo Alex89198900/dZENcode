@@ -37,13 +37,13 @@ export default function ClientSocket() {
     }
     socket.on("connect", onConnect);
     socket.on("disconnect", onDisconnect);
-    if(transport==="N/A")window.location.reload
+    
     return () => {
       socket.off("disconnect", onDisconnect);
       socket.off("connect", onConnect);
     };
     
-  }, [setsessions,transport]);
+  }, [setsessions]);
   
   return (
     <div className="ml-1">
