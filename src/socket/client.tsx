@@ -43,7 +43,7 @@ export default function ClientSocket() {
       socket.off("connect", onConnect);
     };
     
-  }, [setsessions]);
+  }, [setsessions,transport]);
   
   return (
     <div className="ml-1">
