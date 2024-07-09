@@ -87,7 +87,7 @@ function ModalOrder(props: OrdersType) {
                 value={formData.id}
                 required
               />
-              <div className="d-flex justify-content-xl-end gap-2">
+               <div className="d-flex justify-content-xl-end gap-2">
               <Button
                 variant="secondary"
                 onClick={handleClose}
@@ -95,7 +95,7 @@ function ModalOrder(props: OrdersType) {
               >
                 Close
               </Button>
-              <Button variant="primary" type="submit" className="m-3">
+              <Button variant="primary" type="submit" className="mt-3">
               {props._id?"Update order":"Create order"}
               </Button>
               </div>
