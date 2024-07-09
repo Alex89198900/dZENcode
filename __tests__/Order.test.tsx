@@ -7,7 +7,7 @@ import { OrdersType } from "@/types/types";
 const mockData:OrdersType = {
   _id: "",
   id: 2,
-  title: "Product 1",
+  title: "Product 22",
   description: {
     count: 2,
     sum: {
