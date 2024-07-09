@@ -228,3 +228,12 @@
     transform: rotate(0deg);
   }
 }
+
+.btn-success {
+  background-color: #82BA45;
+  border-color: #82BA45;
+}
+.btn-outline-success {
+  color: #82BA45;
+  border-color: #82BA45;
+}
